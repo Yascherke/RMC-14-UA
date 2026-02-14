@@ -76,7 +76,7 @@
 
 - type: entity
   parent: RMCBaseSentry
-  id: RMCSentry
+  id: RMCSentryConstruct
   name: ОН 571-С вартова турель
   description: Напівавтоматична турель, яку можна розмістити, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою М30 і 500-набійним барабанним магазином.
   components:

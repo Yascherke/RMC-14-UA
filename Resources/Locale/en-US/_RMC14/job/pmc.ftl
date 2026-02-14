@@ -92,7 +92,6 @@ rmc-job-description-pmc-pve-team-leader = Зменшіть навантажен�
 
 rmc-job-name-pmc-pve-force-leader = Лідер Сил
 rmc-job-prefix-pmc-pve-force-leader = ЛС
-rmc-job-name-pmc-pve-force-command = Командир Сил
 
 rmc-job-name-pmc-pve-force-command = Командир Сил
 rmc-job-prefix-pmc-pve-force-command = КС
