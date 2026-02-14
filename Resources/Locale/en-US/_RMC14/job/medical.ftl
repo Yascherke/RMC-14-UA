@@ -18,3 +18,8 @@ cm-job-name-researcher = Науковець
 cm-job-description-researcher = Досліджуйте всяку-всячину яку вам надсилають. Створіть та дослідіть нові хімікати, інструменти та інші речі. 
 cm-job-prefix-researcher = НАУК
 CMJobResearcher = Науковець
+
+rmc-job-name-field-doctor = Польовий Лікар
+rmc-job-description-field-doctor = Допоможіть медичному Саванни виконати початкові замовлення, висадіться та підтримуйте морпіхів на землі живими. Будьте готові проводити хірургічні операції.
+rmc-job-prefix-field-doctor = ПЛКР
+RMCJobFieldDoctor  = Польовий Лікар
