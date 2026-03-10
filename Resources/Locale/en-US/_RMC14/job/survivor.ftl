@@ -224,16 +224,6 @@ rmc-job-name-survivor-xenobiologist = Ксенобіолог
 
 rmc-job-name-survivor-pizza-galaxy = Цивільний - Кур'єр Галактики Піци
 
-rmc-job-name-survivor-medical-doctor = Doctor
-
-rmc-job-name-survivor-emt-paramedic = EMT - Paramedic
-
-rmc-job-name-survivor-xenoarchaeologist = Xenoarchaeologist
-
-rmc-job-name-survivor-xenobiologist = Xenobiologist
-
-rmc-job-name-survivor-pizza-galaxy = Civilian - Pizza Galaxy Delivery Driver
-
 rmc-job-name-survivor-commercial-pilot = Weston-Yamada - Commercial Pilot
 
 rmc-job-name-survivor-hybrisa-engineer = Electrical Engineer
