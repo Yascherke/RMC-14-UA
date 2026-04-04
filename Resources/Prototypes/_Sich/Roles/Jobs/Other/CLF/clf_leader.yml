@@ -1,0 +1,103 @@
+﻿- type: job
+  parent: RMCCLFCellLeader
+  id: SichCLFCellLeader
+  startingGear: SichGearCLFCellLeader
+  spawnMenuRoleName: ФВК Лідер
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFirearms: 1
+        RMCSkillFireman: 3
+        RMCSkillMeleeWeapons: 1
+        RMCSkillPolice: 1
+        RMCSkillEndurance: 5
+        RMCSkillJtac: 3
+        RMCSkillVehicles: 1
+
+        RMCSkillConstruction: 2
+        RMCSkillEngineer: 2
+        RMCSkillPowerLoader: 2
+        RMCSkillMedical: 2
+        RMCSkillSurgery: 1
+
+        RMCSkillOverwatch: 1
+        RMCSkillLeadership: 3
+        RMCSkillCqc: 2
+  hidden: true
+
+- type: entity
+  id: SichRandomHumanoidCLFCellLeader
+  name: ФВК спавнер ролі привидів Лідера
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
+    state: icon
+  - type: RandomHumanoidSpawner
+    settings: SichCLFCellLeader
+
+- type: randomHumanoidSettings
+  parent: RMCEventHumanoid
+  id: SichCLFCellLeader
+  components:
+  - type: GhostRole
+    name: rmc-ghost-role-clf-cell-leader
+    description: rmc-ghost-role-information-clf-description
+    rules: rmc-ghost-role-information-clf-rules
+    reregister: false
+    job: SichCLFCellLeader
+    raffle:
+      settings: short
+    requirements:
+    - !type:RoleTimeRequirement
+      role: CMJobSquadLeader
+      time: 18000 # 5 Hours
+  - type: GhostRoleApplySpecial
+    squad: SquadCLF
+
+- type: startingGear
+  id: SichGearCLFCellLeader
+  equipment:
+    head: RMCHeadBeretOfficerHos
+    mask: RMCCombatUtilityKnifeB # TODO RMC14 Type 80 bayonet
+    ears: RMCHeadsetDistressCLF
+    eyes: RMCSunglassesBig
+    jumpsuit: RMCJumpsuitCLFWebbingMAR50
+    outerClothing: SichCoatMilitia
+    gloves: CMHandsBlackMarine
+    shoes: RMCShoesCombat
+    suitstorage: WeaponRifleMAR40
+    id: RMCIDCardCLFCellLeader # TODO RMC14
+    belt: RMCMAR40BeltFilled
+    back: RMCSatchelLightpack
+    pocket1: RMCFlashlight
+    pocket2: RMCPouchMedkit
+  storage:
+      jumpsuit:
+      - CMCrowbar
+      - CMScrewdriver
+      - CMMultitool
+      - RMCExplosivePlastic
+      - RMCExplosivePlastic
+      back:
+      - RMCGrenadeMolotov
+      - CMPacketGrenadeFragOldFilled
+      - RMCRangefinder
+      - RMCWeaponPistolHandcannon
+      - RMCMagazinePistolHandcannon
+      - RMCMagazinePistolHandcannon
+      - RMCBoxClaymoreMineFilled
+      - RMCBoxClaymoreMineFilled
+      outerClothing:
+      - RMCMagazineRifleMAR40
+      - RMCMagazineRifleMAR40
+      pocket2:
+      - CMSurgicalLine
+      - CMSynthGraft
+      - CMBloodPackFull
+      - CMHealthAnalyzer
+      - CMPillCanisterKelotane
+      - CMPillCanisterBicaridine
+      - CMRollerBedSpawnFolded
