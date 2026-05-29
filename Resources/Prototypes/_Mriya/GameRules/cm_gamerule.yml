@@ -1,0 +1,6 @@
+- type: entity
+  id: MRDistressSandbox
+  parent: SichCalmed
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SandboxRule
