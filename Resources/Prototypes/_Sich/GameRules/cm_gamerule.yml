@@ -32,9 +32,4 @@
     bioscan: true
 #    spawnSurvivors: true – ТОДО
 
-- type: entity
-  id: MRDistressSandbox
-  parent: SichCalmed
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: SandboxRule
+
