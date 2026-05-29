@@ -2,5 +2,6 @@
   id: MRDistressSandbox
   parent: SichCalmed
   categories: [ HideSpawnMenu ]
+  showInVote: true
   components:
   - type: SandboxRule
